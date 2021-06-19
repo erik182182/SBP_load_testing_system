@@ -1,0 +1,7 @@
+#JMeter settings
+jmeter.jms.priority=
+jmeter.jms.expiration=
+jmeter.path.xml.directory=<path to message directory>
+jmeter.thread.loop.count=
+jmeter.thread.number.user=
+jmeter.thread.rampup.seconds=

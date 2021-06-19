@@ -1,0 +1,152 @@
+#overlay {
+    margin: auto;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+}
+
+.div-load {
+    z-index: 997;
+    background-color: white;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.load {
+    margin-top: 18%;
+    z-index: 998;
+    width: 100px;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+}
+
+.error-main {
+    display: table;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+}
+
+.error-div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.error-div h1, h2 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 50px;
+    padding-right: 12px;
+}
+
+@keyframes type {
+    from {
+        box-shadow: inset -3px 0px 0px #888;
+    }
+    to {
+        box-shadow: inset -3px 0px 0px transparent;
+    }
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-header, .card-header-queue {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-btn {
+    margin-top: 30px;
+}
+
+.form-card, .queue-container {
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+.form-card-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.look-btn {
+    font-size: small;
+    float: right;
+}
+
+.display-none {
+    display: none;
+}
+
+.modal-custom {
+    width: 100%;
+}
+
+.empty-queue {
+    text-align: center;
+    font-weight: bold;
+    color: #565e64;
+}
+
+.form-radio {
+    margin-bottom: 20px;
+}
+
+.loaded-title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.jmeter-set-btn {
+    margin-bottom: 50px;
+}
+
+.main-span {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+}
+
+.main-container a, .main-container button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.generator-form .generator-check {
+    margin: 30px 30px 30px 60px;
+}
+
+.generator-form .generator-check label {
+    float: left;
+    margin-left: 20px;
+}
+
+.recommend {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.form-margin-top {
+    margin-top: 50px;
+}
+
+.form-table th, .form-table td {
+    min-width: 200px;
+}
+
+.generate-btn {
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,60 @@
+#freemarker settings
+spring.freemarker.expose-request-attributes=true
+spring.freemarker.cache=false
+
+#server settings
+server.error.whitelabel.enabled=false
+server.error.path=/error
+server.port=8080
+
+#spring settings
+spring.main.banner-mode=off
+
+#logging settings
+logging.file.name=application.log
+logging.logback.rollingpolicy.max-file-size=5MB
+
+#DB settings
+spring.datasource.password=<password>
+spring.datasource.username=<username>
+spring.datasource.url=<url>
+spring.datasource.driver-class-name=<driver class name>
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+#MQ connection
+mq.host=<host>
+mq.port=<port>
+mq.manager.name=<manager name>
+mq.channel=<channel>
+mq.queue.in=<inner queue name>
+mq.queue.out=<outer queue name>
+mq.client.transport=false
+
+mq.context.provided.url=<context provided url>
+mq.context.initial.factory=<context initial factory>
+mq.context.factory.name=<context factory name>
+mq.context.in.object=<inner queue object name>
+mq.context.out.object=<outer queue object name>
+
+#JMeter Settings
+jmeter.path=<path to JMeter test directory>
+jmeter.prop.path=jmeter.properties
+jmeter.jmx.path=sbp.jmx
+jmeter.log.path=log.jtl
+jmeter.res.path=results\\
+jmeter.prop.comments=JMeter settings
+
+jmeter.bin.path=<path to JMeter bin directory>
+jmeter.command.test=<start JMeter testing command>
+
+#Files settings
+dir.base64=\\base64
+dir.xml=\\xml
+path.xml.xsd=<path to XML schema>
+
+#defines variables
+error.message.other=An error has occurred.
+error.message.404=Page not found.
+error.message.500=An unexpected server side error has occurred.
+success.message.200=The request was processed successfully.
